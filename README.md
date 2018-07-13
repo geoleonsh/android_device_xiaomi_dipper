@@ -49,18 +49,3 @@ lunch omni_dipper-eng
 mka recoveryimage
 ```
 
-To test it:
-
-```
-fastboot boot out/target/product/dipper/recovery.img
-```
-## Thanks
-xiaolu
-
-simonsmh
-
-notsyncing
-
-wuxianlin
-
-

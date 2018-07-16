@@ -53,7 +53,7 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET     := 0x01000000
-TARGET_PREBUILT_KERNEL := device/xiaomi/dipper/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/xiaomi/dipper/prebuilt/Image.gz-dtb
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
@@ -101,8 +101,10 @@ TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 BOARD_HAS_NO_REAL_SDCARD := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
-TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
-TW_DEFAULT_BRIGHTNESS := 30
+TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
+#TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
+TW_DEFAULT_BRIGHTNESS := 188
+TW_MAX_BRIGHTNESS := 1023
 
 TW_INCLUDE_NTFS_3G := true
 TW_EXCLUDE_SUPERSU := true

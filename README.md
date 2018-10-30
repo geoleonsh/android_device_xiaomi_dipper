@@ -7,7 +7,11 @@ TWRP device tree for Xiaomi MI 8
 
 
 下载地址：持续更新
+
+
 [Release](https://github.com/geoleonsh/android_device_xiaomi_dipper/releases)
+
+
 Xiaomi Mi MI 8 was announced and released in June 2018.
 
 ## Device specifications

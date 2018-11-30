@@ -11,6 +11,10 @@ TWRP device tree for Xiaomi MI 8
 
 [Release](https://github.com/geoleonsh/android_device_xiaomi_dipper/releases)
 
+专注更新，稳定版本。对认为稳定的MIUI版本，提供去除限制的services.jar下载，此文件位于/system/framework/目录下，
+
+替换后可以删除MIUI系统内置的应用商、系统更新器和安全中心，而不会造成卡米。
+
 
 Xiaomi Mi MI 8 was announced and released in June 2018.
 

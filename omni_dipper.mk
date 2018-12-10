@@ -13,8 +13,8 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 # If needed to overide these props
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="Xiaomi/dipper/dipper:8.1.0/OPM1.180713.011/8.5.30:user/release-keys" \
-    PRIVATE_BUILD_DESC="dipper-user 8.1.0 OPM1.180713.011 8.5.30 release-keys"
+    BUILD_FINGERPRINT="Xiaomi/dipper/dipper:8.1.0/OPM1.181206.078/8.5.30:user/release-keys" \
+    PRIVATE_BUILD_DESC="dipper-user 8.1.0 OPM1.181206.078 8.5.30 release-keys"
     
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.treble.enabled=true \
